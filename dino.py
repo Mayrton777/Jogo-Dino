@@ -231,7 +231,7 @@ while True:
             pontos += 1
         game_over = exibe_mensagem('GAME OVER', 40, (0, 0, 0))
         tela.blit(game_over, (240, altura // 2))
-        restart = exibe_mensagem('Pressione "r" para reiniciar', 20, (0, 0, 0))
+        restart = exibe_mensagem('Pressione "R" para reiniciar', 20, (0, 0, 0))
         tela.blit(restart, (242, altura // 2 + 30))
     else:
         pontos += 0.5
